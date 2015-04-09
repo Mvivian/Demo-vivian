@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewDemo</string>
+    <string name="simple_list">简单的ListView列表</string>
+    <string name="title_list">带标题的ListView列表</string>
+    <string name="icon_list">带图片的ListView列表</string>
+    <string name="adapter_list">自定义BaseAdapter</string>
+    <string name="coloritem_list">修改列表颜色</string>
+    <string name="arraylist_butto">Button</string>
+    <string name="listviewdemo">ListViewDemo</string>
+    <string name="gridviewdemo">GridViewDemo</string>
+    <string name="gallerydemo">GalleryDemo</string>
+    <string name="simple_gallery">SimpleGallery</string>
+    <string name="cyclic_gallery">CyclicGallery</string>
+    <string name="menudemo">MenuDemo</string>
+    <string name="optionmenu">OptionMenuDemo</string>
+    <string name="sunbmenu">SubMenuDemo</string>
+    <string name="contextmenu">ContextMenuDemo</string>
+    <string name="scrollviewdemo">ScrollView</string>
+    <string name="buttondemo">ButtonDemo</string>
+    <string name="progressbardemo">ProgressBarDemo</string>
+    <string name="actextview0">Name of President</string>
+    <string name="spinnerdemo">SpinnerDemo</string>
+    <string name="imageswitcherdemo">ImageSwitcherDemo</string>
+
+    <string-array name="president_array">
+        <item>Dwight</item>
+        <item>John</item>
+        <item>Lyndon</item>
+        <item>Richard</item>
+        <item>Gerald</item>
+        <item>Jimmy</item>
+        <item>Ronald</item>
+        <item>George</item>
+        <item>Barack</item>
+    </string-array>
+</resources>

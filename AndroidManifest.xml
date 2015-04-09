@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.ViewDemo"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="19"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="ViewDemo"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ViewDemo.ListViewDemo"
+                android:screenOrientation="portrait"/>
+        <activity android:name="com.example.ViewDemo.GridViewDemo" />
+        <activity android:name="com.example.ViewDemo.GalleryDemo" />
+        <activity android:name=".ArrayList" />
+        <activity android:name=".ColorList" />
+        <activity android:name=".TitleList" />
+        <activity android:name=".IconList" />
+        <activity android:name=".SimpleList" />
+        <activity android:name=".SimpleGallery" />
+        <activity android:name=".CyclicGallery" />
+        <activity android:name=".MenuDemo" />
+        <activity android:name=".OptionMenuDemo" />
+        <activity android:name=".SubMenuDemo" />
+        <activity android:name=".ContextMenuDemo" />
+        <activity android:name=".ScrollViewDemo" />
+        <activity android:name=".ButtonDemo" />
+        <activity android:name=".ProgressBarDemo" />
+        <activity android:name=".SpinnerDemo" />
+        <activity android:name=".ImageSwitcherDemo" />
+    </application>
+</manifest>
